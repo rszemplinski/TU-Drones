@@ -1,0 +1,3 @@
+GUIDED = "GUIDED"
+AUTO = "AUTO"
+RTL = "RTL"
