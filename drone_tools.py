@@ -1,7 +1,6 @@
 from droneapi.lib import VehicleMode
 from pymavlink import mavutil
 import time
-import drone_modes as mode
 import pdb
 
 api = local_connect()
@@ -23,14 +22,6 @@ def get_vehicle_status():
     print "\nMode: %s" % vehicle.mode.name    # settable
     print "\nArmed: %s" % vehicle.armed    # settable
 
-def prepare_for_takeoff():
-    vehicle.mode = VehicleMode('GUIDED')
-    vehicle.armed = True
-    vehicle.flush()
-    while not vehicle.mode.name=='GUIDED' and not vehicle.armed and not api.exit:
-        print '\nGetting ready for takeoff!'
-        time.sleep(1)
-
 def pre_arm_checks():
     print "\nRunning through pre-arm checks..."
     initialise()
@@ -44,6 +35,14 @@ def initialise():
 def wait_for_gps():
     while vehicle.gps_0.fix_type < 2:
         print "\nWaiting for GPS... : ", vehicle.gps_0.fix_type
+        time.sleep(1)
+
+def prepare_for_takeoff():
+    vehicle.mode = VehicleMode('GUIDED')
+    vehicle.armed = True
+    vehicle.flush()
+    while not vehicle.mode.name=='GUIDED' and not vehicle.armed and not api.exit:
+        print '\nGetting ready for takeoff!'
         time.sleep(1)
 
 def reset():
@@ -70,7 +69,7 @@ def disarm_vehicle():
     vehicle.flush()
 
 def set_mode(mode):
-    vehicle.mode = new VehicleMode(mode)
+    vehicle.mode = VehicleMode(mode)
     vehicle.flush()
 
 def set_parameter(name, val):
