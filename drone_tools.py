@@ -1,7 +1,9 @@
+#This is here so we can import modules from this folder
+
 from droneapi.lib import VehicleMode
 from pymavlink import mavutil
-import time
-import pdb
+import time, pdb, log
+import drone_modes as mode
 
 api = local_connect()
 vehicle = api.get_vehicles()[0]
@@ -71,6 +73,9 @@ def disarm_vehicle():
 def set_mode(mode):
     vehicle.mode = VehicleMode(mode)
     vehicle.flush()
+
+def get_parameter(name):
+    return vehicle.parameters[name]
 
 def set_parameter(name, val):
     vehicle.parameters[name] = val
@@ -168,3 +173,9 @@ def set_home(aLocation, aCurrent=1):
     # send command to vehicle
     vehicle.send_mavlink(msg)
     vehicle.flush()
+
+
+arm_vehicle()
+
+time.sleep(5)
+disarm_vehicle()

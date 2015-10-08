@@ -1,3 +1,11 @@
+"""
+  This file allows us to both log
+  print statements to a file and print
+  them out to the console.
+
+  Trust me this is nice.
+"""
+
 import sys
 
 backup = sys.stdout
