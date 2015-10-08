@@ -28,7 +28,7 @@ def pre_arm_checks():
     wait_for_gps()
 
 def initialise():
-    while vehicle.mode.name == "INITIALSING":
+    while vehicle.mode.name == "INITIALISING":
         print "\nWaiting for the vehicle to initialise"
         time.sleep(1)
 
