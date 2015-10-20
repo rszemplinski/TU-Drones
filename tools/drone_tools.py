@@ -1,49 +1,49 @@
-#This is here so we can import modules from this folder
-
-from droneapi.lib import VehicleMode
-from pymavlink import mavutil
 import time, pdb, log
 import drone_modes as mode
+from droneapi.lib import VehicleMode
 
-api = local_connect()
-vehicle = api.get_vehicles()[0]
-
-def get_vehicle_status():
-    print "\nGet all vehicle attribute values:"
-    print "\nLocation: %s" % vehicle.location
-    print "\nAttitude: %s" % vehicle.attitude
-    print "\nVelocity: %s" % vehicle.velocity
-    print "\nGPS: %s" % vehicle.gps_0
-    print "\nGroundspeed: %s" % vehicle.groundspeed
-    print "\nAirspeed: %s" % vehicle.airspeed
-    print "\nMount status: %s" % vehicle.mount_status
-    print "\nBattery: %s" % vehicle.battery
-    print "\nRangefinder: %s" % vehicle.rangefinder
-    print "\nRangefinder distance: %s" % vehicle.rangefinder.distance
-    print "\nRangefinder voltage: %s" % vehicle.rangefinder.voltage
-    print "\nMode: %s" % vehicle.mode.name    # settable
-    print "\nArmed: %s" % vehicle.armed    # settable
-
-def pre_arm_checks():
+def pre_arm_checks(vehicle):
     print "\nRunning through pre-arm checks..."
-    initialise()
-    wait_for_gps()
+    initialise(vehicle)
+    wait_for_gps(vehicle)
 
-def initialise():
+def initialise(vehicle):
     while vehicle.mode.name == "INITIALISING":
         print "\nWaiting for the vehicle to initialise"
         time.sleep(1)
 
-def wait_for_gps():
+def wait_for_gps(vehicle):
     while vehicle.gps_0.fix_type < 2:
         print "\nWaiting for GPS... : ", vehicle.gps_0.fix_type
         time.sleep(1)
 
+def arm_and_takeoff(aTargetAltitude):
+    """
+    Arms vehicle and fly to aTargetAltitude.
+    """
+
+    pre_arm_checks()
+    arm_vehicle()
+    wait_for_arming()
+
+    print "Taking off!"
+    vehicle.commands.takeoff(aTargetAltitude) # Take off to target altitude
+    vehicle.flush()
+
+    # Wait until the vehicle reaches a safe height before processing the goto (otherwise the command
+    #  after Vehicle.commands.takeoff will execute immediately).
+    while not api.exit:
+        print " Altitude: ", vehicle.location.alt
+        if vehicle.location.alt>=aTargetAltitude*0.95: #Just below target, in case of undershoot.
+            print "Reached target altitude"
+            break;
+        time.sleep(1)
+
 def prepare_for_takeoff():
-    vehicle.mode = VehicleMode('GUIDED')
+    vehicle.mode = VehicleMode('STABILIZE')
     vehicle.armed = True
     vehicle.flush()
-    while not vehicle.mode.name=='GUIDED' and not vehicle.armed and not api.exit:
+    while not vehicle.mode.name=='STABILIZE' and not vehicle.armed and not api.exit:
         print '\nGetting ready for takeoff!'
         time.sleep(1)
 
@@ -62,9 +62,17 @@ def remove_observer(type, callback):
     vehicle.remove_attribute_observer(type, callback)
     vehicle.flush()
 
-def arm_vehicle():
-    vehicle.armed = True
+def arm_vehicle(vehicle):
+    print "Arming motors"
+    # Copter should arm in STABILIZE mode
+    vehicle.mode    = VehicleMode("STABILIZE")
+    vehicle.armed   = True
     vehicle.flush()
+
+def wait_for_arming():
+    while not vehicle.armed and not api.exit:
+        print " Waiting for arming..."
+        time.sleep(1)
 
 def disarm_vehicle():
     vehicle.armed = False
@@ -174,8 +182,18 @@ def set_home(aLocation, aCurrent=1):
     vehicle.send_mavlink(msg)
     vehicle.flush()
 
-
-arm_vehicle()
-
-time.sleep(5)
-disarm_vehicle()
+def get_vehicle_status(vehicle):
+    print "\nGet all vehicle attribute values:"
+    print "\nLocation: %s" % vehicle.location
+    print "\nAttitude: %s" % vehicle.attitude
+    print "\nVelocity: %s" % vehicle.velocity
+    print "\nGPS: %s" % vehicle.gps_0
+    print "\nGroundspeed: %s" % vehicle.groundspeed
+    print "\nAirspeed: %s" % vehicle.airspeed
+    print "\nMount status: %s" % vehicle.mount_status
+    print "\nBattery: %s" % vehicle.battery
+    print "\nRangefinder: %s" % vehicle.rangefinder
+    print "\nRangefinder distance: %s" % vehicle.rangefinder.distance
+    print "\nRangefinder voltage: %s" % vehicle.rangefinder.voltage
+    print "\nMode: %s" % vehicle.mode.name    # settable
+    print "\nArmed: %s" % vehicle.armed    # settable
