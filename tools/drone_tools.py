@@ -1,8 +1,10 @@
 import time, pdb, log
 import drone_modes as mode
 from droneapi.lib import VehicleMode
+from pymavlink import mavutil
 
 class DroneTools:
+
     def __init__(self, api, vehicle):
         self.api = api
         self.vehicle = vehicle
@@ -10,7 +12,7 @@ class DroneTools:
     def pre_arm_checks(self):
         print "\nRunning through pre-arm checks..."
         self.initialise()
-        self.wait_for_gps()
+        #self.wait_for_gps()
 
     def initialise(self):
         while self.vehicle.mode.name == "INITIALISING":
@@ -85,6 +87,7 @@ class DroneTools:
         self.vehicle.flush()
 
     def set_mode(self, mode):
+        print "Setting mode to " + mode
         self.vehicle.mode = VehicleMode(mode)
         self.vehicle.flush()
 
