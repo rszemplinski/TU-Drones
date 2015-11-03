@@ -25,7 +25,6 @@ Be sure to follow the instructions on [DroneKit-Python](http://python.dronekit.i
 
  - [List Of Parameters](http://copter.ardupilot.com/wiki/arducopter-parameters/)
  - [Vehicle State and Settings](http://python.dronekit.io/guide/vehicle_state_and_parameters.html)
- - [Vehicle Calibration](https://3drobotics.com/kb/troubleshooting/)
 
 
 
@@ -36,3 +35,9 @@ Be sure to follow the instructions on [DroneKit-Python](http://python.dronekit.i
  which contains **Accel Calibration** and **Compass Calibration**. Use these two tabs to calibrate the drones and hopefully after you will be able to arm the drones again. :)
 
  **Note** that ‘set’ operations are not guaranteed to be complete until **flush()** is called on the parent **Vehicle** object.
+
+
+
+### Troubleshooting
+If drone won't start and every setting is set properly that you know of try this:
+- [Vehicle Calibration Error](https://3drobotics.com/kb/troubleshooting/)
