@@ -31,4 +31,8 @@ Be sure to follow the instructions on [DroneKit-Python](http://python.dronekit.i
 
  ###THINGS TO REMEMBER
 
+ **Note** if you can't get the drones to arm themselves and instead they make a sad beeping noise then you may need to recalibrate the drones.
+ To recalibrate use either APM Planner or Mission Planner and navigate to the **Initial Setup** tab. Inside the tab you will see to a **Mandatory Hardware** dropdown
+ which contains **Accel Calibration** and **Compass Calibration**. Use these two tabs to calibrate the drones and hopefully after you will be able to arm the drones again. :)
+
  **Note** that ‘set’ operations are not guaranteed to be complete until **flush()** is called on the parent **Vehicle** object.
