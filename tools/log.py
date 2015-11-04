@@ -7,6 +7,7 @@
 """
 
 import sys
+from datetime import datetime
 
 backup = sys.stdout
 f = open("log.log", "a")
@@ -23,4 +24,6 @@ def stop_log():
     f.close()
 
 def start_log():
+    f.write("\n===============================================\n\n")
+    f.write(str(datetime.now()) + "\n\n")
     sys.stdout = PrintAndLog(sys.stdout, f)

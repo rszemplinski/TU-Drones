@@ -1,27 +1,26 @@
 import time, pdb, log
 import drone_modes as mode
-from droneapi.lib import VehicleMode
+from dronekit.lib import VehicleMode
 from pymavlink import mavutil
 
 class DroneTools:
 
-    def __init__(self, api, vehicle):
-        self.api = api
+    def __init__(self, vehicle):
         self.vehicle = vehicle
 
     def pre_arm_checks(self):
-        print "\nRunning through pre-arm checks..."
+        print "Running through pre-arm checks..."
         self.initialise()
         #self.wait_for_gps()
 
     def initialise(self):
         while self.vehicle.mode.name == "INITIALISING":
-            print "\nWaiting for the vehicle to initialise"
+            print "Waiting for the vehicle to initialise"
             time.sleep(1)
 
     def wait_for_gps(self):
         while self.vehicle.gps_0.fix_type < 2:
-            print "\nWaiting for GPS... : ", self.vehicle.gps_0.fix_type
+            print "Waiting for GPS... : ", self.vehicle.gps_0.fix_type
             time.sleep(1)
 
     def arm_and_takeoff(self, aTargetAltitude):
@@ -39,7 +38,7 @@ class DroneTools:
 
         # Wait until the vehicle reaches a safe height before processing the goto (otherwise the command
         #  after Vehicle.commands.takeoff will execute immediately).
-        while not self.api.exit:
+        while True:
             print " Altitude: ", self.vehicle.location.alt
             if self.vehicle.location.alt>=aTargetAltitude*0.95: #Just below target, in case of undershoot.
                 print "Reached target altitude"
@@ -50,12 +49,12 @@ class DroneTools:
         self.vehicle.mode = VehicleMode('STABILIZE')
         self.vehicle.armed = True
         self.vehicle.flush()
-        while not self.vehicle.mode.name=='STABILIZE' and not self.vehicle.armed and not self.api.exit:
-            print '\nGetting ready for takeoff!'
+        while not self.vehicle.mode.name=='STABILIZE' and not self.vehicle.armed:
+            print 'Getting ready for takeoff!'
             time.sleep(1)
 
     def reset(self):
-        print "\nReset vehicle attributes/parameters and exit"
+        print "Reset vehicle attributes/parameters and exit"
         self.vehicle.mode = VehicleMode("STABILIZE")
         self.vehicle.armed = False
         self.vehicle.parameters['THR_MIN']=130
@@ -70,7 +69,7 @@ class DroneTools:
         self.vehicle.flush()
 
     def wait_for_arming(self):
-        while not self.vehicle.armed and not self.api.exit:
+        while not self.vehicle.armed:
             print " Waiting for arming..."
             time.sleep(1)
 
@@ -192,17 +191,20 @@ class DroneTools:
         self.vehicle.flush()
 
     def get_vehicle_status(self):
-        print "\nGet all vehicle attribute values:"
-        print "\nLocation: %s" % self.vehicle.location
-        print "\nAttitude: %s" % self.vehicle.attitude
-        print "\nVelocity: %s" % self.vehicle.velocity
-        print "\nGPS: %s" % self.vehicle.gps_0
-        print "\nGroundspeed: %s" % self.vehicle.groundspeed
-        print "\nAirspeed: %s" % self.vehicle.airspeed
-        print "\nMount status: %s" % self.vehicle.mount_status
-        print "\nBattery: %s" % self.vehicle.battery
-        print "\nRangefinder: %s" % self.vehicle.rangefinder
-        print "\nRangefinder distance: %s" % self.vehicle.rangefinder.distance
-        print "\nRangefinder voltage: %s" % self.vehicle.rangefinder.voltage
-        print "\nMode: %s" % self.vehicle.mode.name    # settable
-        print "\nArmed: %s" % self.vehicle.armed    # settable
+        print "Get all vehicle attribute values:"
+        print "Location: %s" % self.vehicle.location
+        print "Attitude: %s" % self.vehicle.attitude
+        print "Velocity: %s" % self.vehicle.velocity
+        print "GPS: %s" % self.vehicle.gps_0
+        print "Groundspeed: %s" % self.vehicle.groundspeed
+        print "Airspeed: %s" % self.vehicle.airspeed
+        print "Mount status: %s" % self.vehicle.mount_status
+        print "Battery: %s" % self.vehicle.battery
+        print "Rangefinder: %s" % self.vehicle.rangefinder
+        print "Rangefinder distance: %s" % self.vehicle.rangefinder.distance
+        print "Rangefinder voltage: %s" % self.vehicle.rangefinder.voltage
+        print "Mode: %s" % self.vehicle.mode.name    # settable
+        print "Armed: %s" % self.vehicle.armed    # settable
+
+    def close():
+        self.vehicle.close()

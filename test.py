@@ -1,17 +1,16 @@
-import os, sys
-sys.path.append(os.getcwd() + "/TU-Drones")
-
-import tools.drone_modes as mode
+from dronekit import connect
 from tools.drone_tools import DroneTools
-import time
-import pdb
+import tools.log as log
+import tools.drone_modes as mode
+import ipdb, time
 
-api = local_connect()
-vehicle = api.get_vehicles()[0]
+log.start_log()
 
-tools = DroneTools(api, vehicle);
+print "Waiting for vehicle..."
+vehicle = connect("/dev/ttyACM0", await_params=True)
 
-tools.arm_vehicle()
-tools.set_speed(5)
-time.sleep(3)
-tools.disarm_vehicle()
+drone = DroneTools(vehicle)
+
+log.stop_log()
+
+ipdb.set_trace()
