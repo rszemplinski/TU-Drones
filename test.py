@@ -4,11 +4,9 @@ import tools.log as log
 import tools.drone_modes as mode
 import ipdb, time
 
-drone = DroneTools(vehicle)
-
 log.stop_log()
-=======
-vehicle = connect('COM6', await_params = True)
+
+vehicle = connect('/dev/ttyUSB2', await_params = True)
 
 tools = DroneTools(vehicle);
 

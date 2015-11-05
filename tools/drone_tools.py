@@ -50,11 +50,7 @@ class DroneTools:
         self.vehicle.armed = True
         self.vehicle.flush()
         while not self.vehicle.mode.name=='STABILIZE' and not self.vehicle.armed:
-<<<<<<< Updated upstream
             print 'Getting ready for takeoff!'
-=======
-            print '\nGetting ready for takeoff!'
->>>>>>> Stashed changes
             time.sleep(1)
 
     def reset(self):
