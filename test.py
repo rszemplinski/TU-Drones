@@ -4,13 +4,12 @@ import tools.log as log
 import tools.drone_modes as mode
 import ipdb, time
 
-log.start_log()
-
-print "Waiting for vehicle..."
-vehicle = connect("/dev/ttyACM0", await_params=True)
-
 drone = DroneTools(vehicle)
 
 log.stop_log()
+=======
+vehicle = connect('COM6', await_params = True)
+
+tools = DroneTools(vehicle);
 
 ipdb.set_trace()
