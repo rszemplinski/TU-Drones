@@ -1,2 +1,2 @@
-dronekit==2.0.0rc1
+dronekit==2.0.0rc9
 pyserial
