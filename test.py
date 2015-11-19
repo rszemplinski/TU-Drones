@@ -2,7 +2,7 @@ from dronekit import connect
 from tools.drone_tools import DroneTools
 import tools.log as log
 import tools.drone_modes as mode
-import ipdb, time
+import ipdb, time, dronekit
 
 import argparse
 
