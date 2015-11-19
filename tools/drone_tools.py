@@ -11,7 +11,7 @@ class DroneTools:
     def pre_arm_checks(self):
         print "Running through pre-arm checks..."
         self.initialise()
-        #self.wait_for_gps()
+        self.wait_for_gps()
 
     def initialise(self):
         while self.vehicle.mode.name == "INITIALISING":
@@ -33,6 +33,7 @@ class DroneTools:
         self.wait_for_arming()
 
         print "Taking off!"
+        self.set_mode(mode.GUIDED)
         self.vehicle.commands.takeoff(aTargetAltitude) # Take off to target altitude
         self.vehicle.flush()
 
@@ -96,6 +97,9 @@ class DroneTools:
     def set_parameter(self, name, val):
         self.vehicle.parameters[name] = val
         self.vehicle.flush()
+
+    def get_mode(self):
+        print "Mode: " + self.vehicle.mode.name
 
     def get_cmds(self):
         cmds = self.vehicle.commands
@@ -189,6 +193,9 @@ class DroneTools:
         # send command to vehicle
         self.vehicle.send_mavlink(msg)
         self.vehicle.flush()
+
+    def print_num_satellites(self):
+        print "Number of satellites visible: %s" % self.vehicle.gps_0.satellites_visible
 
     def get_vehicle_status(self):
         print "Get all vehicle attribute values:"
