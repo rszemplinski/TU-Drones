@@ -7,14 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$USER_HOME$/mavlink/MavLink Java/out/production/MavLink Java" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="org.scream3r:jssc:2.8.0" level="project" />
+    <orderEntry type="library" name="MavLink" level="project" />
   </component>
 </module>
