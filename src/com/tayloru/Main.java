@@ -1,12 +1,9 @@
 package com.tayloru;
 
-import com.MAVLink.common.msg_battery_status;
-import com.MAVLink.common.msg_param_request_list;
 import com.tayloru.uav.SensorTester;
 import com.tayloru.uav.StatusTester;
 import com.tayloru.uav.mav.MAVHandler;
 import com.tayloru.uav.mav.MAVLinkConnection;
-import com.tayloru.uav.utils.Log;
 import jssc.SerialPort;
 import jssc.SerialPortList;
 

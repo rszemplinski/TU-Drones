@@ -1,12 +1,12 @@
 package com.tayloru.uav.mav;
 
-import com.MAVLink.Messages.MAVLinkMessage;
-import com.MAVLink.ardupilotmega.msg_ahrs;
-import com.MAVLink.ardupilotmega.msg_hwstatus;
-import com.MAVLink.ardupilotmega.msg_meminfo;
-import com.MAVLink.ardupilotmega.msg_wind;
-import com.MAVLink.common.*;
-import com.MAVLink.enums.MAV_DATA_STREAM;
+import com.tayloru.MAVLink.Messages.MAVLinkMessage;
+import com.tayloru.MAVLink.ardupilotmega.msg_ahrs;
+import com.tayloru.MAVLink.ardupilotmega.msg_hwstatus;
+import com.tayloru.MAVLink.ardupilotmega.msg_meminfo;
+import com.tayloru.MAVLink.ardupilotmega.msg_wind;
+import com.tayloru.MAVLink.common.*;
+import com.tayloru.MAVLink.enums.MAV_DATA_STREAM;
 import com.tayloru.uav.mav.listeners.MAVControlListener;
 import com.tayloru.uav.mav.listeners.MAVLinkConnectionListener;
 import com.tayloru.uav.mav.listeners.MAVSensorListener;

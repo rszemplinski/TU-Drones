@@ -1,8 +1,8 @@
 package com.tayloru.uav.mav;
 
-import com.MAVLink.common.msg_nav_controller_output;
-import com.MAVLink.common.msg_rc_channels_raw;
-import com.MAVLink.common.msg_servo_output_raw;
+import com.tayloru.MAVLink.common.msg_nav_controller_output;
+import com.tayloru.MAVLink.common.msg_rc_channels_raw;
+import com.tayloru.MAVLink.common.msg_servo_output_raw;
 import com.tayloru.uav.mav.listeners.MAVControlListener;
 
 public class MAVControlHandler {

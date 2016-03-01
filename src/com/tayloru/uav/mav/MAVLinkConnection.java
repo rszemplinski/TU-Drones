@@ -1,8 +1,8 @@
 package com.tayloru.uav.mav;
 
-import com.MAVLink.MAVLinkPacket;
-import com.MAVLink.Messages.MAVLinkMessage;
-import com.MAVLink.Parser;
+import com.tayloru.MAVLink.MAVLinkPacket;
+import com.tayloru.MAVLink.Messages.MAVLinkMessage;
+import com.tayloru.MAVLink.Parser;
 import com.tayloru.uav.mav.listeners.MAVLinkConnectionListener;
 import com.tayloru.uav.utils.Log;
 import jssc.SerialPort;

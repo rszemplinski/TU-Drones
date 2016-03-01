@@ -1,8 +1,8 @@
 package com.tayloru.uav.mav;
 
-import com.MAVLink.ardupilotmega.msg_hwstatus;
-import com.MAVLink.ardupilotmega.msg_meminfo;
-import com.MAVLink.common.*;
+import com.tayloru.MAVLink.ardupilotmega.msg_hwstatus;
+import com.tayloru.MAVLink.ardupilotmega.msg_meminfo;
+import com.tayloru.MAVLink.common.*;
 import com.tayloru.uav.mav.listeners.MAVStatusListener;
 import com.tayloru.uav.mav.types.MAVComponentAvailability;
 import com.tayloru.uav.mav.types.MAVParam;

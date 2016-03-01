@@ -1,6 +1,6 @@
 package com.tayloru.uav.mav.listeners;
 
-import com.MAVLink.Messages.MAVLinkMessage;
+import com.tayloru.MAVLink.Messages.MAVLinkMessage;
 
 public interface MAVLinkConnectionListener {
 

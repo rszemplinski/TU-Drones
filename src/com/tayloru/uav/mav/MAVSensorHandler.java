@@ -1,8 +1,8 @@
 package com.tayloru.uav.mav;
 
-import com.MAVLink.ardupilotmega.msg_ahrs;
-import com.MAVLink.ardupilotmega.msg_wind;
-import com.MAVLink.common.*;
+import com.tayloru.MAVLink.ardupilotmega.msg_ahrs;
+import com.tayloru.MAVLink.ardupilotmega.msg_wind;
+import com.tayloru.MAVLink.common.*;
 import com.tayloru.uav.mav.listeners.MAVSensorListener;
 import com.tayloru.uav.utils.Log;
 
