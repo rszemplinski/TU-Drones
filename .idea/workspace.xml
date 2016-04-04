@@ -1,8 +1,481 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="332b405a-4f6f-4c46-81a3-08cee837b26e" name="Default" comment="" />
-    <ignored path="TU Drones.iws" />
+    <list default="true" id="c3163cc5-aab8-4a1e-b221-72f5c87be046" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_6_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClientLib/src/org/taylor/services/java/lib/gcs/link/LinkConnectionStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClientLib/src/org/taylor/services/java/lib/gcs/link/LinkEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClientLib/src/org/taylor/services/java/lib/gcs/link/LinkEventExtra.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TU-Drones.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/taylor/services/java/communication/JavaMavLinkConnection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/taylor/services/java/core/model/Logger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/taylor/services/java/utils/AppLogger.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jsemver" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/DroidPlannerServicesApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/api/DPServices.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/api/DroidPlannerService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/api/DroneAccess.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/api/DroneApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/communication/connection/AndroidMavLinkConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/communication/connection/AndroidTcpConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/communication/connection/AndroidUdpConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/communication/connection/BluetoothConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/communication/connection/SoloConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/communication/connection/usb/UsbCDCConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/communication/connection/usb/UsbConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/communication/connection/usb/UsbFTDIConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/communication/model/DataLink.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/communication/service/MAVLinkClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/MAVLink/MavLinkCalibration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/MAVLink/MavLinkMsgHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/MAVLink/MavLinkParameters.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/MAVLink/MavLinkRC.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/MAVLink/MavLinkStreamRates.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/MAVLink/MavLinkWaypoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/MAVLink/WaypointManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/DroneEvents.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/DroneInterfaces.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/DroneManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/DroneVariable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/LogMessageListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/Preferences.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/autopilot/apm/APMConstants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/autopilot/apm/ArduCopter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/autopilot/apm/ArduPilot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/autopilot/apm/ArduPlane.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/autopilot/apm/ArduRover.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/autopilot/apm/solo/AbstractLinkManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/autopilot/apm/solo/ArduSolo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/autopilot/apm/solo/SoloComp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/autopilot/apm/solo/controller/ControllerLinkListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/autopilot/apm/solo/controller/ControllerLinkManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/autopilot/apm/solo/sololink/SoloLinkListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/autopilot/apm/solo/sololink/SoloLinkManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/autopilot/apm/variables/APMHeartBeat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/autopilot/generic/GenericMavLinkDrone.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/autopilot/px4/Px4Native.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/manager/DroneCommandTracker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/manager/MavLinkDroneManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/profiles/ParameterManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/profiles/ParameterMetadata.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/profiles/VehicleProfile.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/variables/ApmModes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/variables/Camera.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/variables/GuidedPoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/variables/HeartBeat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/variables/Magnetometer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/variables/MissionStats.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/variables/RC.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/variables/State.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/variables/StreamRates.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/variables/Type.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/firmware/FirmwareType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/GCSHeartbeat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/ReturnToMe.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/follow/Follow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/follow/FollowAbove.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/follow/FollowAlgorithm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/follow/FollowCircle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/follow/FollowGuidedScan.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/follow/FollowHeadingAngle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/follow/FollowLead.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/follow/FollowLeash.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/follow/FollowLeft.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/follow/FollowLookAtMe.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/follow/FollowRight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/follow/FollowSoloShot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/follow/FollowSplineAbove.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/follow/FollowSplineLeash.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/follow/FollowWithRadiusAlgorithm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/location/FusedLocation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/location/Location.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/gcs/roi/ROIEstimator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/helpers/coordinates/CoordBounds.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/helpers/geoTools/GeoTools.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/helpers/geoTools/LineLatLong.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/helpers/geoTools/LineSampler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/helpers/geoTools/LineTools.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/helpers/geoTools/PointTools.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/helpers/geoTools/PolylineTools.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/helpers/geoTools/Simplify.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/helpers/geoTools/spline/Spline.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/helpers/geoTools/spline/SplinePath.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/helpers/units/Area.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/Mission.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/MissionItemImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/MissionItemType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/commands/CameraTriggerImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/commands/ChangeSpeedImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/commands/ConditionYawImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/commands/DoJumpImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/commands/EpmGripperImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/commands/MissionCMD.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/commands/ReturnToHomeImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/commands/SetRelayImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/commands/SetServoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/commands/TakeoffImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/survey/SplineSurveyImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/survey/SurveyImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/waypoints/CircleImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/waypoints/DoLandStartImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/waypoints/LandImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/waypoints/RegionOfInterestImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/waypoints/SpatialCoordItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/waypoints/SplineWaypointImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/waypoints/StructureScannerImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/mission/waypoints/WaypointImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/model/AutopilotWarningParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/model/Logger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/polygon/Polygon.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/srtm/Srtm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/srtm/SrtmData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/srtm/SrtmDownloader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/srtm/SrtmRegions.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/srtm/UnZip.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/survey/CameraInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/survey/Footprint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/survey/SurveyData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/survey/grid/CircumscribedGrid.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/survey/grid/EndpointSorter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/survey/grid/Grid.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/survey/grid/GridBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/core/survey/grid/Trimmer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/data/SessionContract.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/data/SessionDB.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/data/provider/FileProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/data/provider/ServiceDataProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/exception/ConnectionException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/ui/activity/MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/ui/activity/TLogFileSelector.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/ui/activity/UsbIntentReceiver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/ui/adapter/AppConnectionAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/ui/adapter/RecommendedAppsAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/ui/fragment/AppConnectionsFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/ui/fragment/RecommendedAppsFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/ui/fragment/ViewCategoryFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/ui/widget/PageIndicator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/ui/widget/TabPageIndicator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/AndroidApWarningParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/AndroidLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/CommonApiUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/LogToFileTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/NetworkUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/ProxyUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/SoloApiUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/TextUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/analytics/GAUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/apps/AppsUpdateReceiver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/connection/SshConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/connection/WifiConnectionHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/file/AssetUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/file/DirectoryPath.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/file/FileUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/file/IO/CameraInfoLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/file/IO/CameraInfoReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/file/IO/ExceptionWriter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/file/IO/ParameterMetadataLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/file/IO/VehicleProfileReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/prefs/DroidPlannerPrefs.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/video/StreamRecorder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/video/VideoManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/java/utils/video/file/DecodeH264FromFile.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/services/package-info.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/.gitignore" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/.project" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/.project" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/build.gradle" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/build.gradle" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/generate.sh" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/generate.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/message_definitions/ardupilotmega.xml" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/message_definitions/ardupilotmega.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/message_definitions/common.xml" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/message_definitions/common.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/proguard-project.txt" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/proguard-project.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/MAVLinkPacket.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/MAVLinkPacket.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/Messages/MAVLinkMessage.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/Messages/MAVLinkMessage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/Messages/MAVLinkPayload.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/Messages/MAVLinkPayload.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/Messages/MAVLinkStats.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/Messages/MAVLinkStats.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/Parser.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/Parser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/CRC.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/CRC.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_ahrs.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_ahrs.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_ahrs2.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_ahrs2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_ahrs3.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_ahrs3.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_airspeed_autocal.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_airspeed_autocal.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_ap_adc.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_ap_adc.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_autopilot_version_request.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_autopilot_version_request.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_battery2.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_battery2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_camera_feedback.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_camera_feedback.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_camera_status.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_camera_status.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_compassmot_status.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_compassmot_status.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_data16.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_data16.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_data32.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_data32.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_data64.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_data64.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_data96.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_data96.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_digicam_configure.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_digicam_configure.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_digicam_control.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_digicam_control.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_ekf_status_report.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_ekf_status_report.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_fence_fetch_point.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_fence_fetch_point.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_fence_point.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_fence_point.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_fence_status.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_fence_status.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_axis_calibration_progress.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_axis_calibration_progress.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_control.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_control.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_erase_firmware_and_config.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_erase_firmware_and_config.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_factory_parameters_loaded.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_factory_parameters_loaded.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_home_offset_calibration_result.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_home_offset_calibration_result.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_perform_factory_tests.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_perform_factory_tests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_report.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_report.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_report_axis_calibration_status.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_report_axis_calibration_status.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_report_factory_tests_progress.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_report_factory_tests_progress.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_request_axis_calibration.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_request_axis_calibration.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_request_axis_calibration_status.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_request_axis_calibration_status.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_reset.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_reset.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_set_factory_parameters.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_set_factory_parameters.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_set_home_offsets.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_set_home_offsets.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_torque_cmd_report.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gimbal_torque_cmd_report.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gopro_get_request.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gopro_get_request.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gopro_get_response.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gopro_get_response.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gopro_heartbeat.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gopro_heartbeat.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gopro_set_request.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gopro_set_request.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gopro_set_response.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gopro_set_response.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_gps_accuracy.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_gps_accuracy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_hwstatus.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_hwstatus.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_led_control.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_led_control.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_limits_status.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_limits_status.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_mag_cal_progress.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_mag_cal_progress.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_mag_cal_report.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_mag_cal_report.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_meminfo.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_meminfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_mount_configure.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_mount_configure.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_mount_control.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_mount_control.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_mount_status.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_mount_status.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_pid_tuning.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_pid_tuning.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_radio.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_radio.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_rally_fetch_point.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_rally_fetch_point.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_rally_point.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_rally_point.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_rangefinder.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_rangefinder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_remote_log_block_status.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_remote_log_block_status.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_remote_log_data_block.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_remote_log_data_block.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_sensor_offsets.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_sensor_offsets.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_set_mag_offsets.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_set_mag_offsets.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_simstate.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_simstate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/ardupilotmega/msg_wind.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/ardupilotmega/msg_wind.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/CRC.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/CRC.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_actuator_control_target.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_actuator_control_target.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_altitude.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_altitude.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_att_pos_mocap.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_att_pos_mocap.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_attitude.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_attitude.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_attitude_quaternion.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_attitude_quaternion.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_attitude_quaternion_cov.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_attitude_quaternion_cov.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_attitude_target.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_attitude_target.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_auth_key.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_auth_key.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_autopilot_version.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_autopilot_version.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_battery_status.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_battery_status.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_camera_trigger.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_camera_trigger.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_change_operator_control.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_change_operator_control.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_change_operator_control_ack.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_change_operator_control_ack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_command_ack.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_command_ack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_command_int.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_command_int.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_command_long.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_command_long.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_control_system_state.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_control_system_state.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_data_stream.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_data_stream.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_data_transmission_handshake.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_data_transmission_handshake.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_debug.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_debug.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_debug_vect.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_debug_vect.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_distance_sensor.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_distance_sensor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_encapsulated_data.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_encapsulated_data.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_extended_sys_state.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_extended_sys_state.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_file_transfer_protocol.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_file_transfer_protocol.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_global_position_int.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_global_position_int.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_global_position_int_cov.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_global_position_int_cov.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_global_vision_position_estimate.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_global_vision_position_estimate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_gps2_raw.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_gps2_raw.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_gps2_rtk.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_gps2_rtk.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_gps_global_origin.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_gps_global_origin.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_gps_inject_data.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_gps_inject_data.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_gps_raw_int.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_gps_raw_int.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_gps_rtk.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_gps_rtk.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_gps_status.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_gps_status.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_heartbeat.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_heartbeat.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_highres_imu.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_highres_imu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_hil_controls.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_hil_controls.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_hil_gps.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_hil_gps.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_hil_optical_flow.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_hil_optical_flow.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_hil_rc_inputs_raw.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_hil_rc_inputs_raw.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_hil_sensor.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_hil_sensor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_hil_state.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_hil_state.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_hil_state_quaternion.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_hil_state_quaternion.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_home_position.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_home_position.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_landing_target.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_landing_target.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_local_position_ned.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_local_position_ned.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_local_position_ned_cov.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_local_position_ned_cov.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_local_position_ned_system_global_offset.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_local_position_ned_system_global_offset.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_log_data.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_log_data.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_log_entry.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_log_entry.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_log_erase.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_log_erase.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_log_request_data.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_log_request_data.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_log_request_end.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_log_request_end.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_log_request_list.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_log_request_list.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_manual_control.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_manual_control.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_manual_setpoint.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_manual_setpoint.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_memory_vect.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_memory_vect.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_message_interval.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_message_interval.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_mission_ack.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_mission_ack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_mission_clear_all.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_mission_clear_all.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_mission_count.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_mission_count.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_mission_current.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_mission_current.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_mission_item.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_mission_item.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_mission_item_int.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_mission_item_int.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_mission_item_reached.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_mission_item_reached.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_mission_request.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_mission_request.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_mission_request_list.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_mission_request_list.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_mission_request_partial_list.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_mission_request_partial_list.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_mission_set_current.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_mission_set_current.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_mission_write_partial_list.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_mission_write_partial_list.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_named_value_float.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_named_value_float.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_named_value_int.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_named_value_int.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_nav_controller_output.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_nav_controller_output.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_optical_flow.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_optical_flow.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_optical_flow_rad.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_optical_flow_rad.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_param_map_rc.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_param_map_rc.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_param_request_list.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_param_request_list.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_param_request_read.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_param_request_read.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_param_set.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_param_set.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_param_value.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_param_value.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_ping.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_ping.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_position_target_global_int.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_position_target_global_int.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_position_target_local_ned.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_position_target_local_ned.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_power_status.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_power_status.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_radio_status.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_radio_status.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_raw_imu.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_raw_imu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_raw_pressure.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_raw_pressure.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_rc_channels.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_rc_channels.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_rc_channels_override.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_rc_channels_override.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_rc_channels_raw.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_rc_channels_raw.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_rc_channels_scaled.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_rc_channels_scaled.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_request_data_stream.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_request_data_stream.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_resource_request.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_resource_request.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_safety_allowed_area.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_safety_allowed_area.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_safety_set_allowed_area.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_safety_set_allowed_area.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_scaled_imu.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_scaled_imu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_scaled_imu2.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_scaled_imu2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_scaled_imu3.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_scaled_imu3.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_scaled_pressure.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_scaled_pressure.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_scaled_pressure2.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_scaled_pressure2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_scaled_pressure3.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_scaled_pressure3.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_serial_control.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_serial_control.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_servo_output_raw.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_servo_output_raw.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_set_actuator_control_target.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_set_actuator_control_target.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_set_attitude_target.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_set_attitude_target.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_set_gps_global_origin.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_set_gps_global_origin.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_set_home_position.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_set_home_position.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_set_mode.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_set_mode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_set_position_target_global_int.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_set_position_target_global_int.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_set_position_target_local_ned.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_set_position_target_local_ned.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_sim_state.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_sim_state.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_statustext.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_statustext.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_sys_status.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_sys_status.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_system_time.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_system_time.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_terrain_check.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_terrain_check.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_terrain_data.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_terrain_data.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_terrain_report.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_terrain_report.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_terrain_request.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_terrain_request.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_timesync.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_timesync.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_v2_extension.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_v2_extension.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_vfr_hud.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_vfr_hud.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_vibration.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_vibration.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_vicon_position_estimate.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_vicon_position_estimate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_vision_position_estimate.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_vision_position_estimate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/common/msg_vision_speed_estimate.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/common/msg_vision_speed_estimate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/CAMERA_FEEDBACK_FLAGS.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/CAMERA_FEEDBACK_FLAGS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/CAMERA_STATUS_TYPES.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/CAMERA_STATUS_TYPES.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/EKF_STATUS_FLAGS.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/EKF_STATUS_FLAGS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/FACTORY_TEST.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/FACTORY_TEST.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/FENCE_ACTION.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/FENCE_ACTION.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/FENCE_BREACH.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/FENCE_BREACH.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/FIRMWARE_VERSION_TYPE.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/FIRMWARE_VERSION_TYPE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GIMBAL_AXIS.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GIMBAL_AXIS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GIMBAL_AXIS_CALIBRATION_REQUIRED.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GIMBAL_AXIS_CALIBRATION_REQUIRED.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GIMBAL_AXIS_CALIBRATION_STATUS.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GIMBAL_AXIS_CALIBRATION_STATUS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_BURST_RATE.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GOPRO_BURST_RATE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_CAPTURE_MODE.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GOPRO_CAPTURE_MODE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_CHARGING.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GOPRO_CHARGING.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_COMMAND.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GOPRO_COMMAND.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_FIELD_OF_VIEW.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GOPRO_FIELD_OF_VIEW.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_FRAME_RATE.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GOPRO_FRAME_RATE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_HEARTBEAT_FLAGS.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GOPRO_HEARTBEAT_FLAGS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_HEARTBEAT_STATUS.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GOPRO_HEARTBEAT_STATUS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_MODEL.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GOPRO_MODEL.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_PHOTO_RESOLUTION.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GOPRO_PHOTO_RESOLUTION.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_PROTUNE_COLOUR.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GOPRO_PROTUNE_COLOUR.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_PROTUNE_EXPOSURE.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GOPRO_PROTUNE_EXPOSURE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_PROTUNE_GAIN.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GOPRO_PROTUNE_GAIN.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_PROTUNE_SHARPNESS.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GOPRO_PROTUNE_SHARPNESS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_PROTUNE_WHITE_BALANCE.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GOPRO_PROTUNE_WHITE_BALANCE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_REQUEST_STATUS.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GOPRO_REQUEST_STATUS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_RESOLUTION.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GOPRO_RESOLUTION.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_SET_RESPONSE_RESULT.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GOPRO_SET_RESPONSE_RESULT.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_VIDEO_SETTINGS_FLAGS.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GOPRO_VIDEO_SETTINGS_FLAGS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GRIPPER_ACTIONS.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/GRIPPER_ACTIONS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/LED_CONTROL_PATTERN.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/LED_CONTROL_PATTERN.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/LIMITS_STATE.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/LIMITS_STATE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/LIMIT_MODULE.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/LIMIT_MODULE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAG_CAL_STATUS.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAG_CAL_STATUS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAVLINK_DATA_STREAM_TYPE.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAVLINK_DATA_STREAM_TYPE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_AUTOPILOT.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_AUTOPILOT.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_BATTERY_FUNCTION.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_BATTERY_FUNCTION.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_BATTERY_TYPE.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_BATTERY_TYPE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_CMD.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_CMD.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_CMD_ACK.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_CMD_ACK.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_COMPONENT.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_COMPONENT.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_DATA_STREAM.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_DATA_STREAM.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_DISTANCE_SENSOR.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_DISTANCE_SENSOR.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_ESTIMATOR_TYPE.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_ESTIMATOR_TYPE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_FRAME.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_FRAME.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_GOTO.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_GOTO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_LANDED_STATE.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_LANDED_STATE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_MISSION_RESULT.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_MISSION_RESULT.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_MODE.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_MODE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_MODE_FLAG.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_MODE_FLAG.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_MODE_FLAG_DECODE_POSITION.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_MODE_FLAG_DECODE_POSITION.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_MODE_GIMBAL.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_MODE_GIMBAL.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_MOUNT_MODE.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_MOUNT_MODE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_PARAM_TYPE.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_PARAM_TYPE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_POWER_STATUS.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_POWER_STATUS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_PROTOCOL_CAPABILITY.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_PROTOCOL_CAPABILITY.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_REMOTE_LOG_DATA_BLOCK_COMMANDS.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_REMOTE_LOG_DATA_BLOCK_COMMANDS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_REMOTE_LOG_DATA_BLOCK_STATUSES.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_REMOTE_LOG_DATA_BLOCK_STATUSES.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_RESULT.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_RESULT.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_ROI.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_ROI.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_SENSOR_ORIENTATION.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_SENSOR_ORIENTATION.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_SEVERITY.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_SEVERITY.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_STATE.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_STATE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_SYS_STATUS_SENSOR.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_SYS_STATUS_SENSOR.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_TYPE.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_TYPE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_VTOL_STATE.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MAV_VTOL_STATE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MOTOR_TEST_THROTTLE_TYPE.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/MOTOR_TEST_THROTTLE_TYPE.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/PARACHUTE_ACTION.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/PARACHUTE_ACTION.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/PID_TUNING_AXIS.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/PID_TUNING_AXIS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/RALLY_FLAGS.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/RALLY_FLAGS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/SERIAL_CONTROL_DEV.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/SERIAL_CONTROL_DEV.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/SERIAL_CONTROL_FLAG.java" afterPath="$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/enums/SERIAL_CONTROL_FLAG.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TU Drones.iml" afterPath="$PROJECT_DIR$/ClientLib/ClientLib.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/d2xx.jar" afterPath="$PROJECT_DIR$/DependencyLibs/d2xx.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/services/java/core/MAVLink/MavLinkCommands.java" afterPath="$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/MavLinkCommands.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/services/java/core/MAVLink/command/doCmd/MavLinkDoCmds.java" afterPath="$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/doCmd/MavLinkDoCmds.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/services/java/core/MAVLink/connection/MavLinkConnection.java" afterPath="$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/MAVLinkConnection.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/services/java/core/MAVLink/connection/MavLinkConnectionListener.java" afterPath="$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/MAVLinkConnectionListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/services/java/core/MAVLink/connection/MavLinkConnectionTypes.java" afterPath="$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/MAVLinkConnectionTypes.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/services/java/core/MAVLink/connection/TcpConnection.java" afterPath="$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/TcpConnection.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/services/java/core/MAVLink/connection/UdpConnection.java" afterPath="$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/UdpConnection.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/autopilot/Drone.java" afterPath="$PROJECT_DIR$/src/org/taylor/services/java/core/drone/autopilot/Drone.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/autopilot/MavLinkDrone.java" afterPath="$PROJECT_DIR$/src/org/taylor/services/java/core/drone/autopilot/MavLinkDrone.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/variables/calibration/AccelCalibration.java" afterPath="$PROJECT_DIR$/src/org/taylor/services/java/core/drone/variables/calibration/AccelCalibration.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/services/java/core/drone/variables/calibration/MagnetometerCalibrationImpl.java" afterPath="$PROJECT_DIR$/src/org/taylor/services/java/core/drone/variables/calibration/MagnetometerCalibrationImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/d2xx.xml" afterPath="$PROJECT_DIR$/.idea/libraries/d2xx.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="TU-Drones.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -19,23 +492,48 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="TU Drones" />
+    <favorites_list name="TU-Drones" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ArduPilot.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/services/java/core/drone/autopilot/apm/ArduPilot.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
+      <file leaf-file-name="JavaMavLinkConnection.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/communication/JavaMavLinkConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6481481">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.21135029">
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppLogger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/utils/AppLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -45,10 +543,29 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/services/android/core/survey/grid/GridBuilder.java" />
-        <option value="$PROJECT_DIR$/libs/Mavlink/src/com/MAVLink/MAVLinkPacket.java" />
-        <option value="$PROJECT_DIR$/Mavlink/src/com/MAVLink/MAVLinkPacket.java" />
-        <option value="$PROJECT_DIR$/src/services/java/core/drone/autopilot/apm/ArduPilot.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/MAVLinkConnectionListener.java" />
+        <option value="$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/MAVLinkConnectionType.java" />
+        <option value="$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/MAVLinkConnection.java" />
+        <option value="$PROJECT_DIR$/ClientLib/src/org/taylor/services/java/lib/gcs/link/LinkEvent.java" />
+        <option value="$PROJECT_DIR$/ClientLib/src/org/taylor/services/java/lib/gcs/link/LinkEventsExtra.java" />
+        <option value="$PROJECT_DIR$/ClientLib/src/org/taylor/services/java/lib/gcs/link/LinkEventExtra.java" />
+        <option value="$PROJECT_DIR$/src/org/taylor/services/java/core/model/logger/Logger.java" />
+        <option value="$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/TcpConnection.java" />
+        <option value="$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/MavLinkConnectionListener.java" />
+        <option value="$PROJECT_DIR$/ClientLib/src/org/taylor/services/java/lib/gcs/link/LinkConnectionStatus.java" />
+        <option value="$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/UdpConnection.java" />
+        <option value="$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/MavLinkConnection.java" />
+        <option value="$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/doCmd/MavLinkDoCmds.java" />
+        <option value="$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/MavLinkCommands.java" />
+        <option value="$PROJECT_DIR$/src/org/taylor/services/java/core/drone/DroneManager.java" />
+        <option value="$PROJECT_DIR$/src/org/taylor/services/java/core/drone/autopilot/Drone.java" />
+        <option value="$PROJECT_DIR$/src/org/taylor/services/java/core/drone/autopilot/MavLinkDrone.java" />
+        <option value="$PROJECT_DIR$/src/org/taylor/services/java/core/drone/variables/calibration/AccelCalibration.java" />
+        <option value="$PROJECT_DIR$/src/org/taylor/services/java/core/drone/variables/calibration/MagnetometerCalibrationImpl.java" />
+        <option value="$PROJECT_DIR$/src/org/taylor/services/java/core/drone/DroneVariable.java" />
+        <option value="$PROJECT_DIR$/src/org/taylor/services/java/utils/AppLogger.java" />
+        <option value="$PROJECT_DIR$/src/org/taylor/services/java/communication/JavaMavLinkCommunication.java" />
       </list>
     </option>
   </component>
@@ -57,11 +574,67 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1721" />
-    <option name="height" value="1056" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="3224" />
+    <option name="height" value="1754" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturity issuesJava</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -88,33 +661,37 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
+              <option name="myItemId" value="TU-Drones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
+              <option name="myItemId" value="TU-Drones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
+              <option name="myItemId" value="TU-Drones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
+              <option name="myItemId" value="TU-Drones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
+              <option name="myItemId" value="TU-Drones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -122,25 +699,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
+              <option name="myItemId" value="TU-Drones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
+              <option name="myItemId" value="TU-Drones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -150,19 +727,15 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
+              <option name="myItemId" value="TU-Drones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
+              <option name="myItemId" value="TU-Drones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -170,17 +743,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="communication" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
+              <option name="myItemId" value="TU-Drones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
+              <option name="myItemId" value="TU-Drones" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClientLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TU-Drones" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TU-Drones" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClientLib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -188,213 +779,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autopilot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autopilot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mavlink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsemver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsemver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsemver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TU Drones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsemver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="semver" />
+              <option name="myItemId" value="link" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="js-jscs-nodeInterpreter" value="C:\NodeJS\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jsemver/src" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DependencyLibs/Mavlink" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\rszem_j4gyhfe\Documents\Projects\Taylor\TU Drones" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\rszem_j4gyhfe\Documents\Projects\Taylor\TU Drones\libs" />
-      <recent name="C:\Users\rszem_j4gyhfe\Documents\Projects\Taylor\TU Drones\src" />
+      <recent name="C:\Users\rszem_rltuyx6\Documents\Projects\Taylor\TU-Drones\DependencyLibs" />
     </key>
   </component>
   <component name="RunManager">
@@ -714,7 +1124,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TU Drones" />
+      <module name="Mavlink" />
       <envs />
       <method />
     </configuration>
@@ -801,6 +1211,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -817,46 +1232,61 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="332b405a-4f6f-4c46-81a3-08cee837b26e" name="Default" comment="" />
-      <created>1457981887851</created>
+      <changelist id="c3163cc5-aab8-4a1e-b221-72f5c87be046" name="Default" comment="" />
+      <created>1457985568920</created>
       <option name="number" value="Default" />
-      <updated>1457981887851</updated>
-      <workItem from="1457981891215" duration="1841000" />
+      <updated>1457985568920</updated>
+      <workItem from="1457985572709" duration="8713000" />
+      <workItem from="1458231153575" duration="2777000" />
+      <workItem from="1459271510635" duration="2822000" />
+      <workItem from="1459731017705" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1841000" />
+    <option name="totallyTimeSpent" value="14331000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1721" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-12" y="-12" width="3224" height="1754" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28152493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973316" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -865,185 +1295,252 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/services/java/core/gcs/follow/FollowLead.java">
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/communication/JavaMavLinkConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/java/communication/model/DataLink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/java/core/mission/commands/SetServoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/java/communication/connection/AndroidUdpConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/java/core/survey/grid/GridBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6111111">
-          <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/java/core/mission/survey/SurveyImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/java/core/drone/autopilot/apm/variables/APMHeartBeat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/java/core/MAVLink/MavLinkMsgHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/java/core/drone/autopilot/apm/ArduCopter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_CMD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_ROI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_GOTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_MODE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_TYPE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_FRAME.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_STATE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/MAV_RESULT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GIMBAL_AXIS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mavlink/src/com/MAVLink/enums/GOPRO_MODEL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mavlink/src/com/MAVLink/MAVLinkPacket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4814814">
-          <caret line="350" column="46" selection-start-line="350" selection-start-column="46" selection-end-line="350" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3649#3650#0" expanded="false" />
-            <element signature="e#3693#3694#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/java/core/drone/autopilot/apm/ArduPilot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6481481">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/utils/AppLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/MavLinkConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/doCmd/MavLinkDoCmds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/MavLinkCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/drone/autopilot/Drone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/drone/autopilot/MavLinkDrone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="94" selection-start-line="13" selection-start-column="94" selection-end-line="13" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/drone/variables/calibration/AccelCalibration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="133" column="32" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/drone/variables/calibration/MagnetometerCalibrationImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientLib/src/org/taylor/services/java/lib/gcs/link/LinkConnectionStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/TcpConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/MavLinkConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="470" column="49" selection-start-line="470" selection-start-column="49" selection-end-line="470" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientLib/src/org/taylor/services/java/lib/gcs/link/LinkConnectionStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DependencyLibs/Mavlink/src/com/MAVLink/MAVLinkPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17612524">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/MavLinkConnectionTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31702545">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientLib/src/org/taylor/services/java/lib/gcs/link/LinkEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientLib/src/org/taylor/services/java/lib/gcs/link/LinkEventExtra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TU-Drones.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/MavLinkConnectionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40508807">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/UdpConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/TcpConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientLib/src/org/taylor/services/java/lib/gcs/link/LinkConnectionStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/doCmd/MavLinkDoCmds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12328767">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/MavLinkCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17612524">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/drone/autopilot/Drone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2994129">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/drone/autopilot/MavLinkDrone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22896282">
+          <caret line="13" column="94" selection-start-line="13" selection-start-column="94" selection-end-line="13" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/drone/variables/calibration/AccelCalibration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3424656">
+          <caret line="133" column="32" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/drone/variables/calibration/MagnetometerCalibrationImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.148728">
+          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/model/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40508807">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/core/MAVLink/connection/MavLinkConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.369863">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/utils/AppLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/taylor/services/java/communication/JavaMavLinkConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21135029">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1100,7 +1597,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>TU Drones</last-edited>
+          <last-edited>TU-Drones</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1112,7 +1609,6 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1124,7 +1620,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>d2xx</last-edited>
+          <last-edited>com.google.code.gson:gson:2.6.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

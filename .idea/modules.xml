@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Mavlink/Mavlink.iml" filepath="$PROJECT_DIR$/Mavlink/Mavlink.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TU Drones.iml" filepath="$PROJECT_DIR$/TU Drones.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jsemver/src/main/main.iml" filepath="$PROJECT_DIR$/jsemver/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClientLib/ClientLib.iml" filepath="$PROJECT_DIR$/ClientLib/ClientLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DependencyLibs/Mavlink/Mavlink.iml" filepath="$PROJECT_DIR$/DependencyLibs/Mavlink/Mavlink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TU-Drones.iml" filepath="$PROJECT_DIR$/TU-Drones.iml" />
     </modules>
   </component>
 </project>
