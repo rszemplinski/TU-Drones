@@ -1,8 +1,6 @@
 package com.tayloru.uav.mav;
 
-import com.tayloru.MAVLink.common.msg_nav_controller_output;
-import com.tayloru.MAVLink.common.msg_rc_channels_raw;
-import com.tayloru.MAVLink.common.msg_servo_output_raw;
+import com.tayloru.MAVLink.common.*;
 import com.tayloru.uav.mav.listeners.MAVControlListener;
 
 public class MAVControlHandler {
@@ -51,5 +49,28 @@ public class MAVControlHandler {
                 msg.chan8_raw };
         listener.radioControl(rc_vals);
     }
+    public void handleScaleIMU2(msg_scaled_imu2 msg){
+        if(listener == null){
+            return;
+        }
+        int[] scaled_vals = new int[]{ msg.xacc,
+                msg.xgyro,
+                msg.xmag,
+                msg.yacc,
+                msg.ygyro,
+                msg.ymag,
+                msg.zacc,
+                msg.zgyro,
+                msg.zmag};
+        listener.scaleIMU2(scaled_vals);
+    }
+    public void handleAck(msg_command_ack msg){
+        if(listener == null){
+            return;
+        }
+        int[] scaled_vals = new int[]{
 
+        };
+        listener.commandAck(scaled_vals);
+    }
 }

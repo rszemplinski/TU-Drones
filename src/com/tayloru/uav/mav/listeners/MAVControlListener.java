@@ -39,4 +39,7 @@ public interface MAVControlListener {
      */
     void radioControl(int[] vals);
 
+    void scaleIMU2 (int[] vals);
+
+    void commandAck (int[] vals);
 }

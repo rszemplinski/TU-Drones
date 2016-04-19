@@ -112,6 +112,7 @@ public class MAVHandler implements MAVLinkConnectionListener {
                 statusHandler.handleMemInfo((msg_meminfo)msg);
                 break;
             case msg_heartbeat.MAVLINK_MSG_ID_HEARTBEAT:
+                Log.debug("hearbeat", "thisworks");
                 statusHandler.handleHeartbeat((msg_heartbeat)msg);
                 break;
             case msg_statustext.MAVLINK_MSG_ID_STATUSTEXT:
@@ -137,9 +138,16 @@ public class MAVHandler implements MAVLinkConnectionListener {
             case msg_servo_output_raw.MAVLINK_MSG_ID_SERVO_OUTPUT_RAW:
                 controlHandler.handleRawServo((msg_servo_output_raw)msg);
                 break;
-
+            case msg_scaled_imu2.MAVLINK_MSG_ID_SCALED_IMU2:
+                controlHandler.handleScaleIMU2((msg_scaled_imu2)msg);
+                System.out.println(msg.toString());
+                break;
+            case msg_command_ack.MAVLINK_MSG_ID_COMMAND_ACK:
+                controlHandler.handleAck((msg_command_ack)msg);
+                System.out.println(msg.toString());
+                break;
             default:
-                Log.rawMav(TAG, "Currently unsuported message - " + msg.getClass().toString());
+                Log.rawMav(TAG, "Currently unsupported message - " + msg.getClass().getSimpleName());
         }
     }
 
