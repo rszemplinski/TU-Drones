@@ -2,19 +2,6 @@ package org.taylor.services.java.core.drone.autopilot;
 
 import com.MAVLink.Messages.MAVLinkMessage;
 
-import org.droidplanner.services.android.communication.model.DataLink;
-import org.droidplanner.services.android.core.MAVLink.WaypointManager;
-import org.droidplanner.services.android.core.drone.profiles.ParameterManager;
-import org.droidplanner.services.android.core.drone.variables.Camera;
-import org.droidplanner.services.android.core.drone.variables.GuidedPoint;
-import org.droidplanner.services.android.core.drone.variables.MissionStats;
-import org.droidplanner.services.android.core.drone.variables.State;
-import org.droidplanner.services.android.core.drone.variables.StreamRates;
-import org.droidplanner.services.android.core.drone.variables.calibration.AccelCalibration;
-import org.droidplanner.services.android.core.drone.variables.calibration.MagnetometerCalibrationImpl;
-import org.droidplanner.services.android.core.firmware.FirmwareType;
-import org.droidplanner.services.android.core.mission.Mission;
-
 public interface MavLinkDrone extends Drone {
 
     String PACKAGE_NAME = "org.droidplanner.services.android.core.drone.autopilot";
@@ -31,7 +18,7 @@ public interface MavLinkDrone extends Drone {
 
     public byte getCompid();
 
-    public State getState();
+    public S`tate getState();
 
     public ParameterManager getParameterManager();
 
